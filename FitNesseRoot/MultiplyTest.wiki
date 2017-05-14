@@ -1,0 +1,12 @@
+!define TEST_SYSTEM {slim}
+!pomFile pom.xml
+
+|import|
+|org.vs.fitnesse|
+
+!4 Story: multiply
+!|MultiplyFixture|
+|a|b|c?|
+|2 |8 |16|
+|1 |4 |4|
+|5 |20 |100|

@@ -1,0 +1,12 @@
+!define TEST_SYSTEM {slim}
+!pomFile pom.xml
+
+|import|
+|org.vs.fitnesse|
+
+!4 Story: the amount you pay determines the received credits.
+!|AddFixture|
+|a|b|c?|
+|2 |8 |10|
+|1 |4 |5|
+|5 |20 |25|
